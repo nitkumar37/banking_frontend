@@ -1,0 +1,32 @@
+.navbar_css{
+    opacity: 0.6;
+  }
+
+    li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+    padding-bottom:3px ;
+  }
+
+  li:after{
+    content: '';
+    margin: auto;
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: transparent;
+    /* transition: width 0.5s ease,background-color 0.5s ease; */
+    transition: all 0.5s ease;
+  }
+  li:hover:after{
+    width: 100%;
+    background-color: red;
+  }
+  .navbar li:active{
+    font-weight: bold;
+  }
+
+  .navbar_button{
+    padding-top: 10px;
+  }

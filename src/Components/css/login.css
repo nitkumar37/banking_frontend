@@ -1,0 +1,62 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh; /* vh stands for viewport height */
+  }
+
+  
+  
+
+  .boundary{
+    /* max-width: 400px; */
+    /* margin: 10% auto 8%; */
+    padding: 20px;
+    box-sizing: border-box;
+    background: white;
+    box-shadow: 1px 1px 10px 1px #000000, 8px 8px 0px 0px #344454, 12px 12px 10px 0px #000000;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 25px;
+  }
+
+
+
+  body{
+    overflow: hidden;
+  }
+
+  .remove_underline{
+    text-decoration: none;
+  }
+
+  .headings{
+    font-family: Rubik Bubbles;
+    padding-bottom: 20px;
+  }
+
+  
+
+  
+
+  .background { 
+    width: 100vw; 
+    height: 100vh; 
+} 
+
+.background::before { 
+    content: ''; 
+    background: url('../images/merchant-6.jpg')  
+        no-repeat center center/cover; 
+    position: absolute; 
+    opacity: 0.7; 
+    top: 0px; 
+    left: 0px; 
+    width: 100vw; 
+    height: 100vh; 
+    z-index: -1; 
+}
+
+#navbar_button{
+  padding-top: 10px;
+}
