@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-* {
+#profile_card {
 	box-sizing: border-box;
 }
 
-body {
+#profile_card, .view, .body-creditcard {
 	background-color: #3f3664;
 	font-family: Montserrat, sans-serif;
 	
@@ -17,16 +17,20 @@ body {
 	margin: 0;
 }
 
-h3 {
+#profile_card h3 {
 	margin: 10px 0;
 }
 
-h6 {
+#profile_card h6 {
 	margin: 5px 0;
 	text-transform: uppercase;
 }
 
-p {
+#profile_card h7 {
+	margin: 5px 0;
+}
+
+#profile_card p {
 	font-size: 14px;
 	line-height: 21px;
 }

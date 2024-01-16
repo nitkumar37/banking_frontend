@@ -1,0 +1,56 @@
+
+-html { overflow-y: hidden; }
+
+/* #back{
+    font-size: 100%;
+    font-family: monospace, sans-serif;
+    width: 100%;
+    background-color: #3f3664;
+    overflow: hidden;
+  } */
+.welcome_background::before{
+  content: "";
+  background-image: url('../../images/welcome_walpaper.jpg') ;
+  position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   z-index: -1;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+
+.message-box {
+  height: 200px;
+  width:80%;
+  position: absolute;
+  top: 50%;
+  left: 6%;
+  margin-top: -100px;
+  color: black;
+  font-family: Roboto;
+  font-weight: 300;
+  top: 50%;
+  text-align: left;
+}
+.message-box h1 {
+  font-size: 60px;
+  line-height: 46px;
+  margin-bottom: 40px;
+  font-family: Black Ops One;
+  font-size: 90px;
+  text-align: left;
+}
+
+.message-box p{
+    font-family: Whisper;
+    font-size: xx-large;
+}
+
+
+  .message-box a{
+    padding: 5px;
+  }

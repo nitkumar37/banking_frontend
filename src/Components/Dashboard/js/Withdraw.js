@@ -1,15 +1,13 @@
+import img from "../../images/withdraw.jpg";
 import "../css/functions_dash.css"
-import blogo from "../images/deposite.jpg"
-
-export default function Deposit(){
+export default function Withdraw(){
     return (
         <div className="view" id="deposit_div_container">
       <div className="deposit_div">
         <div
           className="brand-logo"
-          style={{"background": "url({{'./images/deposite.jpg'}}) no-repeat center center/cover"}}>
-          </div>
-        <div className="brand-title">Deposit Money</div>
+          style={{background: `url(${img}) no-repeat center center/cover`}}></div>
+        <div className="brand-title" style={{"fontSize": "1.77rem"}}>Withdraw Money</div>
         <div className="inputs">
           <div className="field-group">
             <i className="icons fas fa-inr"></i>

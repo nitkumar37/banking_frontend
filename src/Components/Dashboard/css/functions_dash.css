@@ -1,4 +1,4 @@
-input {
+.view input {
     caret-color: red;
   }
   
@@ -49,7 +49,7 @@ input {
     margin-top: 30px;
   }
   
-  input, button, select {
+  .view input, .view button, .view select {
     display: block;
     width: 100%;
     padding: 0;
@@ -62,19 +62,19 @@ input {
     display: flex;
   }
   
-  label {
+  .view label {
     margin-bottom: 4px;
   }
   
-  label:nth-of-type(2) {
+  .view label:nth-of-type(2) {
     margin-top: 12px;
   }
   
-  input::placeholder {
+  .view input::placeholder {
     color: gray;
   }
   
-  input, select {
+  .view input, select {
     background: #ecf0f3;
     padding: 10px;
     padding-left: 20px;
@@ -85,7 +85,7 @@ input {
     
   }
   
-  button {
+  .view button {
     color: white;
     margin-top: 20px;
     background: #1DA1F2;
@@ -97,18 +97,10 @@ input {
     transition: 0.5s;
   }
   
-  button:hover {
+  .view button:hover {
     box-shadow: none;
   }
-  
-  
-  
-  h1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
+
   .icons{
     width: 60px;
     height: 100%;
